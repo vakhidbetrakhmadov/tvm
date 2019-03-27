@@ -131,3 +131,5 @@ set(USE_SORT OFF)
 
 # Build ANTLR parser for Relay text format
 set(USE_ANTLR OFF)
+
+set(USE_LLVM /clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-16.04/bin/llvm-config)
